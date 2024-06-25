@@ -1,0 +1,105 @@
+{
+  "user": [
+    {
+      "name": "shahbaz",
+      "email": "shahbaz@gmail.com",
+      "password": 1234,
+      "id": 1
+    },
+    {
+      "name": "talib",
+      "email": "talib@gmail.com",
+      "password": 1234,
+      "id": 2
+    },
+    {
+      "name": "nazia",
+      "email": "nazia@gmail.com",
+      "password": 1234,
+      "id": 3
+    },
+    {
+      "name": "hamid",
+      "email": "hamid@gmail.com",
+      "password": 1234,
+      "id": 4
+    },
+    {
+      "name": "shiraz",
+      "email": "shiraz@gmail.com",
+      "password": 1234,
+      "id": 5
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "title": "Pizza",
+      "image": "pizza.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Burger",
+      "image": "burger.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Momo",
+      "image": "momo.jpg"
+    }
+  ],
+  "food": [
+    {
+      "id": 1,
+      "title": "Nice Burger",
+      "price": 2.1,
+      "detail": "Made with Italian Sauce, Chicken, and organice vegetables.",
+      "image": "menu-burger.jpg",
+      "fid": 2
+    },
+    {
+      "id": 2,
+      "title": "Testy Pizza",
+      "price": 1.5,
+      "detail": "Made with Italian Sauce, Chicken, and organice vegetables.",
+      "image": "menu-pizza.jpg",
+      "fid": 1
+    },
+    {
+      "id": 3,
+      "title": "Chicken Steam Momo",
+      "price": 3.2,
+      "detail": "Made with Italian Sauce, Chicken, and organice vegetables.",
+      "image": "menu-momo.jpg",
+      "fid": 3
+    }
+  ],
+  "order": [
+    {
+      "food_id": "2",
+      "user_id": 2,
+      "qty": 3,
+      "total_price": 4.5,
+      "name": "talib",
+      "email": "talib@gmail.com",
+      "phone": 999888,
+      "address": "Lhr",
+      "date": "Fri May 26 2023",
+      "status": 0,
+      "id": 3
+    },
+    {
+      "food_id": "1",
+      "user_id": 1,
+      "qty": 5,
+      "total_price": 10.5,
+      "name": "shahbaz",
+      "email": "shahbaz@gmail.com",
+      "phone": 444222,
+      "address": "Zpr",
+      "date": "Thu May 25 2023",
+      "status": 0,
+      "id": 4
+    }
+  ]
+}
